@@ -1,0 +1,15 @@
+C:\Documents and Settings\plocke\my documents\visual studio 2010\Projects\SudokuSolver\SharedUtilities\bin\Debug\SharedUtilities.dll
+C:\Documents and Settings\plocke\my documents\visual studio 2010\Projects\SudokuSolver\SharedUtilities\bin\Debug\SharedUtilities.pdb
+C:\Documents and Settings\plocke\my documents\visual studio 2010\Projects\SudokuSolver\SharedUtilities\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\plocke\my documents\visual studio 2010\Projects\SudokuSolver\SharedUtilities\obj\Debug\SharedUtilities.dll
+C:\Documents and Settings\plocke\my documents\visual studio 2010\Projects\SudokuSolver\SharedUtilities\obj\Debug\SharedUtilities.pdb
+C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\SharedUtilities\bin\Debug\SharedUtilities.dll
+C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\SharedUtilities\bin\Debug\SharedUtilities.pdb
+C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\SharedUtilities\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\SharedUtilities\obj\Debug\SharedUtilities.dll
+C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\SharedUtilities\obj\Debug\SharedUtilities.pdb
+C:\Users\plocke\Documents\My Dropbox\SudokuSolver\SharedUtilities\bin\Debug\SharedUtilities.dll
+C:\Users\plocke\Documents\My Dropbox\SudokuSolver\SharedUtilities\bin\Debug\SharedUtilities.pdb
+C:\Users\plocke\Documents\My Dropbox\SudokuSolver\SharedUtilities\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\plocke\Documents\My Dropbox\SudokuSolver\SharedUtilities\obj\Debug\SharedUtilities.dll
+C:\Users\plocke\Documents\My Dropbox\SudokuSolver\SharedUtilities\obj\Debug\SharedUtilities.pdb

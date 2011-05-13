@@ -1,0 +1,27 @@
+C:\Documents and Settings\plocke\my documents\visual studio 2010\Projects\SudokuSolver\Tests\bin\Debug\Tests.dll
+C:\Documents and Settings\plocke\my documents\visual studio 2010\Projects\SudokuSolver\Tests\bin\Debug\Tests.pdb
+C:\Documents and Settings\plocke\my documents\visual studio 2010\Projects\SudokuSolver\Tests\bin\Debug\Solver.dll
+C:\Documents and Settings\plocke\my documents\visual studio 2010\Projects\SudokuSolver\Tests\bin\Debug\Solver.pdb
+C:\Documents and Settings\plocke\my documents\visual studio 2010\Projects\SudokuSolver\Tests\bin\Debug\Solver_Accessor.dll
+C:\Documents and Settings\plocke\my documents\visual studio 2010\Projects\SudokuSolver\Tests\bin\Debug\Solver_Accessor.pdb
+C:\Documents and Settings\plocke\my documents\visual studio 2010\Projects\SudokuSolver\Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\plocke\my documents\visual studio 2010\Projects\SudokuSolver\Tests\obj\Debug\Tests.dll
+C:\Documents and Settings\plocke\my documents\visual studio 2010\Projects\SudokuSolver\Tests\obj\Debug\Tests.pdb
+C:\Users\plocke\Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll
+C:\Users\plocke\Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.pdb
+C:\Users\plocke\Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Solver.dll
+C:\Users\plocke\Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Solver.pdb
+C:\Users\plocke\Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Solver_Accessor.dll
+C:\Users\plocke\Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Solver_Accessor.pdb
+C:\Users\plocke\Documents\My Dropbox\SudokuSolver\Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\plocke\Documents\My Dropbox\SudokuSolver\Tests\obj\Debug\Tests.dll
+C:\Users\plocke\Documents\My Dropbox\SudokuSolver\Tests\obj\Debug\Tests.pdb
+C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll
+C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.pdb
+C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Solver.dll
+C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Solver.pdb
+C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Solver_Accessor.dll
+C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Solver_Accessor.pdb
+C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\obj\Debug\Tests.dll
+C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\obj\Debug\Tests.pdb

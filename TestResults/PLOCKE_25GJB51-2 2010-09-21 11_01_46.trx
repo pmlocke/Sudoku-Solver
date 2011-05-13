@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d08fdab2-acc6-4146-877a-62e56566984e" name="PLOCKE@25GJB51-2 2010-09-21 11:01:46" runUser="MSDOMAIN1\PLOCKE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f7182292-f7f3-47b9-ab7d-6a0f41f28cfe">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="PLOCKE_25GJB51-2 2010-09-21 11_01_46">
+      <DeploymentItem filename="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Solver\bin\Debug\Solver.dll" />
+    </Deployment>
+    <Execution>
+      <Timeouts runTimeout="30000" testTimeout="30000" />
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+      </TestTypeSpecific>
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-09-21T11:01:46.9414888-05:00" queuing="2010-09-21T11:01:47.2852498-05:00" start="2010-09-21T11:01:47.5196323-05:00" finish="2010-09-21T11:01:48.9259273-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="cannot_solve_invalid_puzzle" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="63b92d21-dd62-a201-65b6-ffee7ae66124">
+      <Execution id="27cecf85-87a5-4c8d-ae77-5548250118d7" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.SolverTest, Tests" name="cannot_solve_invalid_puzzle" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="63b92d21-dd62-a201-65b6-ffee7ae66124" executionId="27cecf85-87a5-4c8d-ae77-5548250118d7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="27cecf85-87a5-4c8d-ae77-5548250118d7" testId="63b92d21-dd62-a201-65b6-ffee7ae66124" testName="cannot_solve_invalid_puzzle" computerName="25GJB51-2" duration="00:00:00.2045283" startTime="2010-09-21T11:01:47.8321423-05:00" endTime="2010-09-21T11:01:48.6915448-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="27cecf85-87a5-4c8d-ae77-5548250118d7">
+      <Output>
+        <DebugTrace>578428365616843243519418285832724361677549468245651243456392757823912831192541854783189468697678596783196329141323723298213111792541854996883282323624367384138787698875239841128311925419783182319763291468678396749678523821381681452391754239121839798756473919368489368792932841128323222787639871938957168869344819632917518681453239533218121529718939732136492831997676788784932128325841321286866329343197151978796769784297831</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a7fe482a-f47b-491d-9e33-eabd5d1ca56c" name="PLOCKE@25GJB51-2 2010-09-21 09:18:09" runUser="MSDOMAIN1\PLOCKE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f7182292-f7f3-47b9-ab7d-6a0f41f28cfe">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="PLOCKE_25GJB51-2 2010-09-21 09_18_09">
+      <DeploymentItem filename="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Solver\bin\Debug\Solver.dll" />
+    </Deployment>
+    <Execution>
+      <Timeouts runTimeout="30000" testTimeout="30000" />
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+      </TestTypeSpecific>
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-09-21T09:18:09.3831583-05:00" queuing="2010-09-21T09:18:09.4300348-05:00" start="2010-09-21T09:18:09.7737958-05:00" finish="2010-09-21T09:18:14.4458203-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="28" executed="28" passed="28" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Load_Strategies" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="6ab44e7c-e6f7-7a80-6224-ddb7baea7d12">
+      <Execution id="d435f1c2-34c9-4284-9318-ff081108c4c9" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.SolverTest, Tests" name="Load_Strategies" />
+    </UnitTest>
+    <UnitTest name="GetMatchingTilesTest" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="1a01e16f-6a16-0a34-4b84-ddc9b631541b">
+      <Execution id="cbd7803b-d4a9-46b9-bf0d-aaea0d7e4afd" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.StrategyTest, Tests" name="GetMatchingTilesTest" />
+    </UnitTest>
+    <UnitTest name="MyTestInitialize" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="c2a9cb24-da84-dabd-ebef-e715c43ff7ff">
+      <Execution id="a3ce0e95-0c08-46ce-97d5-9419b58063f3" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.GridTest, Tests" name="MyTestInitialize" />
+    </UnitTest>
+    <UnitTest name="solve_medium" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="8a260ca6-3ed1-0146-eefb-32c640dcc2c1">
+      <Execution id="ab2b267d-a241-4bb3-80e7-14e57e8b1283" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.SolverTest, Tests" name="solve_medium" />
+    </UnitTest>
+    <UnitTest name="GetUniqueAnswersTest" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="a8ab2788-7bd7-40eb-4191-949ced236ffc">
+      <Execution id="9e1fe9e6-e1cf-4f86-8f28-680e80338ae7" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.StrategyTest, Tests" name="GetUniqueAnswersTest" />
+    </UnitTest>
+    <UnitTest name="get_tile_possible_answers" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="42185e4f-fba5-b13e-e87b-bf6ee9f6b57a">
+      <Execution id="b8db91ee-c36a-41c5-a75e-87732337df86" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.TileTest, Tests" name="get_tile_possible_answers" />
+    </UnitTest>
+    <UnitTest name="Initialize_Tile" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="ea60075d-4a72-61f9-24cb-77037a7c05a6">
+      <Execution id="2049c6d1-f707-4917-9a59-9c775232c05b" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.TileTest, Tests" name="Initialize_Tile" />
+    </UnitTest>
+    <UnitTest name="is_solved" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="80123aba-588b-d529-f865-401414bce5fe">
+      <Execution id="d3a642dc-c8c4-43b9-bab7-2cf727eef093" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.GridTest, Tests" name="is_solved" />
+    </UnitTest>
+    <UnitTest name="get_tile_answer_negative" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="45956fa6-1f6e-e559-2fa3-9cb9e4462286">
+      <Execution id="c22158c5-958d-4295-9e92-d406873cdd64" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.TileTest, Tests" name="get_tile_answer_negative" />
+    </UnitTest>
+    <UnitTest name="find_row" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="91a3a51f-4ca5-d33c-0a7c-fb35883de1f1">
+      <Execution id="2e890620-a50e-4394-bd98-40f0bc3809fc" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.GridTest, Tests" name="find_row" />
+    </UnitTest>
+    <UnitTest name="find_tile" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="3516c277-bcf6-13ac-9e1d-43b24459828b">
+      <Execution id="4a6b50c8-ac16-48aa-a9a8-6bdea678ba93" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.GridTest, Tests" name="find_tile" />
+    </UnitTest>
+    <UnitTest name="solve_evil_test_no_brute_force" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="fe8ba9a5-e461-4d1a-63f1-5567f58780e1">
+      <Execution id="0cdce9b1-85e4-4857-8227-92c03696207c" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.SolverTest, Tests" name="solve_evil_test_no_brute_force" />
+    </UnitTest>
+    <UnitTest name="MyTestInitialize" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="9728d8dc-2c1f-eae3-69bb-0598a58596ff">
+      <Execution id="cd16441c-eaf8-456b-ba06-62b079e98931" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.SolverTest, Tests" name="MyTestInitialize" />
+    </UnitTest>
+    <UnitTest name="find_group" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="87783e61-37cd-6c96-5308-ee61a5090e8e">
+      <Execution id="b9e7cde1-2d90-4843-bc7d-74f4b195f13e" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.GridTest, Tests" name="find_group" />
+    </UnitTest>
+    <UnitTest name="Set_Tile_Group" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="6cbe25d8-fa90-3d6f-0b42-af20aaac3195">
+      <Execution id="67a6f445-cac9-4129-ac01-eb36f5f21a66" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.TileTest, Tests" name="Set_Tile_Group" />
+    </UnitTest>
+    <UnitTest name="remove_possible_answers" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="8d230e59-e3bc-0c2c-ded1-1b4ec89fac03">
+      <Execution id="b233c9be-2731-46bf-9f89-44ca65770217" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.TileTest, Tests" name="remove_possible_answers" />
+    </UnitTest>
+    <UnitTest name="cannot_solve_puzzle" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="ec690798-bdec-14a3-75e4-807615f0b119">
+      <Execution id="071cbe0a-15f7-4c77-84d2-d38fe548e89c" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.SolverTest, Tests" name="cannot_solve_puzzle" />
+    </UnitTest>
+    <UnitTest name="is_not_solved" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="5aa1415c-cb70-7e4c-015c-55f6f91bf315">
+      <Execution id="f8191014-9749-4dac-ab1e-7088f72f7a14" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.GridTest, Tests" name="is_not_solved" />
+    </UnitTest>
+    <UnitTest name="solve_need_subgroup_reduction" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="7d4e23b1-5a66-74a5-7c71-7576c74dab77">
+      <Execution id="1b00ab34-7b2f-4463-b9d6-d84fa0ff66d8" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.SolverTest, Tests" name="solve_need_subgroup_reduction" />
+    </UnitTest>
+    <UnitTest name="solve_with_XWing" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="38076ad9-a778-93a0-3b94-f861ef568dd0">
+      <Execution id="508be79d-a88c-42da-b02a-cff485ec4dff" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.SolverTest, Tests" name="solve_with_XWing" />
+    </UnitTest>
+    <UnitTest name="get_set_tile_answer" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="8ae0ddc5-e013-7c99-fb85-b54bee06e566">
+      <Execution id="f099842c-4154-4ae3-8ae3-d966dbd4dd5d" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.TileTest, Tests" name="get_set_tile_answer" />
+    </UnitTest>
+    <UnitTest name="verify_test" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="774600c6-52b9-0762-68e7-fcbcdb6b0895">
+      <Execution id="5885ff6a-df9b-421b-aa0b-68efe91f34d7" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.GridTest, Tests" name="verify_test" />
+    </UnitTest>
+    <UnitTest name="find_column" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="3f28a37f-5e35-afa7-bcd8-53796e12d019">
+      <Execution id="faeb8b64-ceee-47c4-b039-9b330d0d9f62" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.GridTest, Tests" name="find_column" />
+    </UnitTest>
+    <UnitTest name="solve_easy" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="f3b1fb54-ec21-1172-e4a2-250ae8db93b1">
+      <Execution id="ed8239df-9cc0-49e9-9412-af251a4385d6" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.SolverTest, Tests" name="solve_easy" />
+    </UnitTest>
+    <UnitTest name="tile_is_solved" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="85fe9f7f-c539-a291-bb10-291cdb103ff3">
+      <Execution id="142c93c7-3bd6-4e60-b0ef-ac3cf199d9ec" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.TileTest, Tests" name="tile_is_solved" />
+    </UnitTest>
+    <UnitTest name="Get_answered" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="037fdeeb-8cc5-15a0-13b3-210788b5f421">
+      <Execution id="13c0fa9f-ff89-4f17-9fcb-e09731f8426f" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.StrategyTest, Tests" name="Get_answered" />
+    </UnitTest>
+    <UnitTest name="solve_evil_with_brute_force_test" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="060079a3-f240-85b7-576f-b9e45c0dbcfb">
+      <Execution id="7b9731e0-053c-4753-b2f6-21491147515d" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.SolverTest, Tests" name="solve_evil_with_brute_force_test" />
+    </UnitTest>
+    <UnitTest name="grid_to_string" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="4b3be3d2-f8b5-2334-36dc-b63f181b8b67">
+      <Execution id="922cdd58-7f0b-45d2-9e66-c5c5e400e510" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.GridTest, Tests" name="grid_to_string" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="037fdeeb-8cc5-15a0-13b3-210788b5f421" executionId="13c0fa9f-ff89-4f17-9fcb-e09731f8426f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="060079a3-f240-85b7-576f-b9e45c0dbcfb" executionId="7b9731e0-053c-4753-b2f6-21491147515d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1a01e16f-6a16-0a34-4b84-ddc9b631541b" executionId="cbd7803b-d4a9-46b9-bf0d-aaea0d7e4afd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3516c277-bcf6-13ac-9e1d-43b24459828b" executionId="4a6b50c8-ac16-48aa-a9a8-6bdea678ba93" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="38076ad9-a778-93a0-3b94-f861ef568dd0" executionId="508be79d-a88c-42da-b02a-cff485ec4dff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f28a37f-5e35-afa7-bcd8-53796e12d019" executionId="faeb8b64-ceee-47c4-b039-9b330d0d9f62" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="42185e4f-fba5-b13e-e87b-bf6ee9f6b57a" executionId="b8db91ee-c36a-41c5-a75e-87732337df86" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="45956fa6-1f6e-e559-2fa3-9cb9e4462286" executionId="c22158c5-958d-4295-9e92-d406873cdd64" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4b3be3d2-f8b5-2334-36dc-b63f181b8b67" executionId="922cdd58-7f0b-45d2-9e66-c5c5e400e510" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5aa1415c-cb70-7e4c-015c-55f6f91bf315" executionId="f8191014-9749-4dac-ab1e-7088f72f7a14" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ab44e7c-e6f7-7a80-6224-ddb7baea7d12" executionId="d435f1c2-34c9-4284-9318-ff081108c4c9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6cbe25d8-fa90-3d6f-0b42-af20aaac3195" executionId="67a6f445-cac9-4129-ac01-eb36f5f21a66" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="774600c6-52b9-0762-68e7-fcbcdb6b0895" executionId="5885ff6a-df9b-421b-aa0b-68efe91f34d7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7d4e23b1-5a66-74a5-7c71-7576c74dab77" executionId="1b00ab34-7b2f-4463-b9d6-d84fa0ff66d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="80123aba-588b-d529-f865-401414bce5fe" executionId="d3a642dc-c8c4-43b9-bab7-2cf727eef093" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="85fe9f7f-c539-a291-bb10-291cdb103ff3" executionId="142c93c7-3bd6-4e60-b0ef-ac3cf199d9ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="87783e61-37cd-6c96-5308-ee61a5090e8e" executionId="b9e7cde1-2d90-4843-bc7d-74f4b195f13e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8a260ca6-3ed1-0146-eefb-32c640dcc2c1" executionId="ab2b267d-a241-4bb3-80e7-14e57e8b1283" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ae0ddc5-e013-7c99-fb85-b54bee06e566" executionId="f099842c-4154-4ae3-8ae3-d966dbd4dd5d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d230e59-e3bc-0c2c-ded1-1b4ec89fac03" executionId="b233c9be-2731-46bf-9f89-44ca65770217" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="91a3a51f-4ca5-d33c-0a7c-fb35883de1f1" executionId="2e890620-a50e-4394-bd98-40f0bc3809fc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9728d8dc-2c1f-eae3-69bb-0598a58596ff" executionId="cd16441c-eaf8-456b-ba06-62b079e98931" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a8ab2788-7bd7-40eb-4191-949ced236ffc" executionId="9e1fe9e6-e1cf-4f86-8f28-680e80338ae7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2a9cb24-da84-dabd-ebef-e715c43ff7ff" executionId="a3ce0e95-0c08-46ce-97d5-9419b58063f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ea60075d-4a72-61f9-24cb-77037a7c05a6" executionId="2049c6d1-f707-4917-9a59-9c775232c05b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ec690798-bdec-14a3-75e4-807615f0b119" executionId="071cbe0a-15f7-4c77-84d2-d38fe548e89c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3b1fb54-ec21-1172-e4a2-250ae8db93b1" executionId="ed8239df-9cc0-49e9-9412-af251a4385d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fe8ba9a5-e461-4d1a-63f1-5567f58780e1" executionId="0cdce9b1-85e4-4857-8227-92c03696207c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="13c0fa9f-ff89-4f17-9fcb-e09731f8426f" testId="037fdeeb-8cc5-15a0-13b3-210788b5f421" testName="Get_answered" computerName="25GJB51-2" duration="00:00:00.0331237" startTime="2010-09-21T09:18:09.9769273-05:00" endTime="2010-09-21T09:18:10.8363298-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13c0fa9f-ff89-4f17-9fcb-e09731f8426f">
+    </UnitTestResult>
+    <UnitTestResult executionId="7b9731e0-053c-4753-b2f6-21491147515d" testId="060079a3-f240-85b7-576f-b9e45c0dbcfb" testName="solve_evil_with_brute_force_test" computerName="25GJB51-2" duration="00:00:00.3135811" startTime="2010-09-21T09:18:10.8675808-05:00" endTime="2010-09-21T09:18:11.1800908-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7b9731e0-053c-4753-b2f6-21491147515d">
+      <Output>
+        <DebugTrace>57842836561684324351941828583272436167754948245612435639275782391219758436879366786154898341239873952149871821463652869368154469387312148897671489765272526312854236863759598681544383123693519768471214286793295846861542131463786798689253163971129712921483594271812337297667988198386433459127376291219241592223463786796883197112153629712921495829327148681542131463786798689719318129259427381472393625612337299798768368783433421492126719565159192223463786798871973181954221253682914292397138546213823176975486154638312914798765958238219167394523984121397687938615441463831291389876569348297625525869368154463873129147985766689354217529382182394312683729755921555511975954299181377689486386862874132361461571839146839857647829786152592614324138631868292634952749841335967719527598674683829786152613493148139146186832926349529867534187498759183895275967868154634143621394128979183794961475283786518666234199723414752857689286815963414317236148681525758673297614313414164251975954183768986347826143291431215686813952614783876861623419143128878676816341413289723146162138179793861544146383129138987656934829762552539241975368242631729519983175986764983874123126386841923186836862841971594715764319158986386826341931594715769587412995175986746836862841971953641281559548232686168371419767894139813959432868153683715867419724161932841239876872398615476568379138214714316341651958623681547569739138786214714316341651958681239545412376126384638678965957193481527938147291923</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cbd7803b-d4a9-46b9-bf0d-aaea0d7e4afd" testId="1a01e16f-6a16-0a34-4b84-ddc9b631541b" testName="GetMatchingTilesTest" computerName="25GJB51-2" duration="00:00:00.0222214" startTime="2010-09-21T09:18:11.2113418-05:00" endTime="2010-09-21T09:18:11.2425928-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cbd7803b-d4a9-46b9-bf0d-aaea0d7e4afd">
+    </UnitTestResult>
+    <UnitTestResult executionId="4a6b50c8-ac16-48aa-a9a8-6bdea678ba93" testId="3516c277-bcf6-13ac-9e1d-43b24459828b" testName="find_tile" computerName="25GJB51-2" duration="00:00:00.0139257" startTime="2010-09-21T09:18:11.2738438-05:00" endTime="2010-09-21T09:18:11.3050948-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a6b50c8-ac16-48aa-a9a8-6bdea678ba93">
+      <Output>
+        <DebugTrace>57842836561684324351941828583272436</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="508be79d-a88c-42da-b02a-cff485ec4dff" testId="38076ad9-a778-93a0-3b94-f861ef568dd0" testName="solve_with_XWing" computerName="25GJB51-2" duration="00:00:00.6804410" startTime="2010-09-21T09:18:11.3207203-05:00" endTime="2010-09-21T09:18:12.0238678-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="508be79d-a88c-42da-b02a-cff485ec4dff">
+      <Output>
+        <DebugTrace>57842836561684324351941828583272436167754948245612435639275784746551894999793582354146387131231286867829127392683615</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="faeb8b64-ceee-47c4-b039-9b330d0d9f62" testId="3f28a37f-5e35-afa7-bcd8-53796e12d019" testName="find_column" computerName="25GJB51-2" duration="00:00:00.0042801" startTime="2010-09-21T09:18:12.0707443-05:00" endTime="2010-09-21T09:18:12.0863698-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="faeb8b64-ceee-47c4-b039-9b330d0d9f62">
+      <Output>
+        <DebugTrace>57842836561684324351941828583272436</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b8db91ee-c36a-41c5-a75e-87732337df86" testId="42185e4f-fba5-b13e-e87b-bf6ee9f6b57a" testName="get_tile_possible_answers" computerName="25GJB51-2" duration="00:00:00.0015343" startTime="2010-09-21T09:18:12.1019953-05:00" endTime="2010-09-21T09:18:12.1332463-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b8db91ee-c36a-41c5-a75e-87732337df86">
+    </UnitTestResult>
+    <UnitTestResult executionId="c22158c5-958d-4295-9e92-d406873cdd64" testId="45956fa6-1f6e-e559-2fa3-9cb9e4462286" testName="get_tile_answer_negative" computerName="25GJB51-2" duration="00:00:00.0018777" startTime="2010-09-21T09:18:12.1801228-05:00" endTime="2010-09-21T09:18:12.1957483-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c22158c5-958d-4295-9e92-d406873cdd64">
+    </UnitTestResult>
+    <UnitTestResult executionId="922cdd58-7f0b-45d2-9e66-c5c5e400e510" testId="4b3be3d2-f8b5-2334-36dc-b63f181b8b67" testName="grid_to_string" computerName="25GJB51-2" duration="00:00:00.0030966" startTime="2010-09-21T09:18:12.2269993-05:00" endTime="2010-09-21T09:18:12.2426248-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="922cdd58-7f0b-45d2-9e66-c5c5e400e510">
+      <Output>
+        <DebugTrace>57842836561684324351941828583272436</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f8191014-9749-4dac-ab1e-7088f72f7a14" testId="5aa1415c-cb70-7e4c-015c-55f6f91bf315" testName="is_not_solved" computerName="25GJB51-2" duration="00:00:00.0117377" startTime="2010-09-21T09:18:12.2582503-05:00" endTime="2010-09-21T09:18:12.2895013-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f8191014-9749-4dac-ab1e-7088f72f7a14">
+      <Output>
+        <DebugTrace>57842836561684324351941828583272436</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d435f1c2-34c9-4284-9318-ff081108c4c9" testId="6ab44e7c-e6f7-7a80-6224-ddb7baea7d12" testName="Load_Strategies" computerName="25GJB51-2" duration="00:00:00.0047667" startTime="2010-09-21T09:18:12.3363778-05:00" endTime="2010-09-21T09:18:12.3520033-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d435f1c2-34c9-4284-9318-ff081108c4c9">
+      <Output>
+        <DebugTrace>578428365616843243519418285832724364765397295278461143259845328</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="67a6f445-cac9-4129-ac01-eb36f5f21a66" testId="6cbe25d8-fa90-3d6f-0b42-af20aaac3195" testName="Set_Tile_Group" computerName="25GJB51-2" duration="00:00:00.0021212" startTime="2010-09-21T09:18:12.3676288-05:00" endTime="2010-09-21T09:18:12.3988798-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67a6f445-cac9-4129-ac01-eb36f5f21a66">
+    </UnitTestResult>
+    <UnitTestResult executionId="5885ff6a-df9b-421b-aa0b-68efe91f34d7" testId="774600c6-52b9-0762-68e7-fcbcdb6b0895" testName="verify_test" computerName="25GJB51-2" duration="00:00:00.0063258" startTime="2010-09-21T09:18:12.4145053-05:00" endTime="2010-09-21T09:18:12.4301308-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5885ff6a-df9b-421b-aa0b-68efe91f34d7">
+      <Output>
+        <DebugTrace>57842836561684324351941828583272436182369457376254981459817632247538169938146725615792843721485396863921574594673218</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1b00ab34-7b2f-4463-b9d6-d84fa0ff66d8" testId="7d4e23b1-5a66-74a5-7c71-7576c74dab77" testName="solve_need_subgroup_reduction" computerName="25GJB51-2" duration="00:00:00.1583397" startTime="2010-09-21T09:18:12.4457563-05:00" endTime="2010-09-21T09:18:12.6176368-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b00ab34-7b2f-4463-b9d6-d84fa0ff66d8">
+      <Output>
+        <DebugTrace>57842836561684324351941828583272436215871295344527517348269576919355623484187637964375634566121683492181987929483872</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d3a642dc-c8c4-43b9-bab7-2cf727eef093" testId="80123aba-588b-d529-f865-401414bce5fe" testName="is_solved" computerName="25GJB51-2" duration="00:00:00.0232082" startTime="2010-09-21T09:18:12.6645133-05:00" endTime="2010-09-21T09:18:12.7113898-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3a642dc-c8c4-43b9-bab7-2cf727eef093">
+      <Output>
+        <DebugTrace>57842836561684324351941828583272436957849992998369599699999999916998943992435199949199829999999998995983299799924369</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="142c93c7-3bd6-4e60-b0ef-ac3cf199d9ec" testId="85fe9f7f-c539-a291-bb10-291cdb103ff3" testName="tile_is_solved" computerName="25GJB51-2" duration="00:00:00.0016612" startTime="2010-09-21T09:18:12.7426408-05:00" endTime="2010-09-21T09:18:12.7582663-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="142c93c7-3bd6-4e60-b0ef-ac3cf199d9ec">
+    </UnitTestResult>
+    <UnitTestResult executionId="b9e7cde1-2d90-4843-bc7d-74f4b195f13e" testId="87783e61-37cd-6c96-5308-ee61a5090e8e" testName="find_group" computerName="25GJB51-2" duration="00:00:00.0098530" startTime="2010-09-21T09:18:12.8051428-05:00" endTime="2010-09-21T09:18:12.8363938-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9e7cde1-2d90-4843-bc7d-74f4b195f13e">
+      <Output>
+        <DebugTrace>57842836561684324351941828583272436</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ab2b267d-a241-4bb3-80e7-14e57e8b1283" testId="8a260ca6-3ed1-0146-eefb-32c640dcc2c1" testName="solve_medium" computerName="25GJB51-2" duration="00:00:00.1137849" startTime="2010-09-21T09:18:12.8676448-05:00" endTime="2010-09-21T09:18:13.0082743-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab2b267d-a241-4bb3-80e7-14e57e8b1283">
+      <Output>
+        <DebugTrace>57842836561684324351941828583272436489137585975624493349175852163439871248572186258983686963725524243763194161767291</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f099842c-4154-4ae3-8ae3-d966dbd4dd5d" testId="8ae0ddc5-e013-7c99-fb85-b54bee06e566" testName="get_set_tile_answer" computerName="25GJB51-2" duration="00:00:00.0014770" startTime="2010-09-21T09:18:13.0395253-05:00" endTime="2010-09-21T09:18:13.0551508-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f099842c-4154-4ae3-8ae3-d966dbd4dd5d">
+    </UnitTestResult>
+    <UnitTestResult executionId="b233c9be-2731-46bf-9f89-44ca65770217" testId="8d230e59-e3bc-0c2c-ded1-1b4ec89fac03" testName="remove_possible_answers" computerName="25GJB51-2" duration="00:00:00.0024598" startTime="2010-09-21T09:18:13.0864018-05:00" endTime="2010-09-21T09:18:13.1020273-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b233c9be-2731-46bf-9f89-44ca65770217">
+    </UnitTestResult>
+    <UnitTestResult executionId="2e890620-a50e-4394-bd98-40f0bc3809fc" testId="91a3a51f-4ca5-d33c-0a7c-fb35883de1f1" testName="find_row" computerName="25GJB51-2" duration="00:00:00.0064015" startTime="2010-09-21T09:18:13.1176528-05:00" endTime="2010-09-21T09:18:13.1489038-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e890620-a50e-4394-bd98-40f0bc3809fc">
+      <Output>
+        <DebugTrace>57842836561684324351941828583272436</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cd16441c-eaf8-456b-ba06-62b079e98931" testId="9728d8dc-2c1f-eae3-69bb-0598a58596ff" testName="MyTestInitialize" computerName="25GJB51-2" duration="00:00:00.0042653" startTime="2010-09-21T09:18:13.1957803-05:00" endTime="2010-09-21T09:18:13.2114058-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd16441c-eaf8-456b-ba06-62b079e98931">
+      <Output>
+        <DebugTrace>5784283656168432435194182858327243657842836561684324351941828583272436</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9e1fe9e6-e1cf-4f86-8f28-680e80338ae7" testId="a8ab2788-7bd7-40eb-4191-949ced236ffc" testName="GetUniqueAnswersTest" computerName="25GJB51-2" duration="00:00:00.0033969" startTime="2010-09-21T09:18:13.2270313-05:00" endTime="2010-09-21T09:18:13.2582823-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e1fe9e6-e1cf-4f86-8f28-680e80338ae7">
+    </UnitTestResult>
+    <UnitTestResult executionId="a3ce0e95-0c08-46ce-97d5-9419b58063f3" testId="c2a9cb24-da84-dabd-ebef-e715c43ff7ff" testName="MyTestInitialize" computerName="25GJB51-2" duration="00:00:00.0077316" startTime="2010-09-21T09:18:13.3051588-05:00" endTime="2010-09-21T09:18:13.3207843-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a3ce0e95-0c08-46ce-97d5-9419b58063f3">
+      <Output>
+        <DebugTrace>5784283656168432435194182858327243657842836561684324351941828583272436</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2049c6d1-f707-4917-9a59-9c775232c05b" testId="ea60075d-4a72-61f9-24cb-77037a7c05a6" testName="Initialize_Tile" computerName="25GJB51-2" duration="00:00:00.0041835" startTime="2010-09-21T09:18:13.3364098-05:00" endTime="2010-09-21T09:18:13.3520353-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2049c6d1-f707-4917-9a59-9c775232c05b">
+    </UnitTestResult>
+    <UnitTestResult executionId="071cbe0a-15f7-4c77-84d2-d38fe548e89c" testId="ec690798-bdec-14a3-75e4-807615f0b119" testName="cannot_solve_puzzle" computerName="25GJB51-2" duration="00:00:00.0574199" startTime="2010-09-21T09:18:13.3832863-05:00" endTime="2010-09-21T09:18:13.4614138-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="071cbe0a-15f7-4c77-84d2-d38fe548e89c">
+      <Output>
+        <DebugTrace>578428365616843243519418285832724361677549482456124356392757847465518949</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ed8239df-9cc0-49e9-9412-af251a4385d6" testId="f3b1fb54-ec21-1172-e4a2-250ae8db93b1" testName="solve_easy" computerName="25GJB51-2" duration="00:00:00.0469748" startTime="2010-09-21T09:18:13.4926648-05:00" endTime="2010-09-21T09:18:13.5551668-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed8239df-9cc0-49e9-9412-af251a4385d6">
+      <Output>
+        <DebugTrace>57842836561684324351941828583272436476539729527846114325984532891684234593718183673154325142965736787169459862621789</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0cdce9b1-85e4-4857-8227-92c03696207c" testId="fe8ba9a5-e461-4d1a-63f1-5567f58780e1" testName="solve_evil_test_no_brute_force" computerName="25GJB51-2" duration="00:00:00.6902351" startTime="2010-09-21T09:18:13.5864178-05:00" endTime="2010-09-21T09:18:14.2895653-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0cdce9b1-85e4-4857-8227-92c03696207c">
+      <Output>
+        <DebugTrace>57842836561684324351941828583272436167754948245612435639275784746551894999793582354146387131231286867829127392683615</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

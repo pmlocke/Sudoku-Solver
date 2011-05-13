@@ -1,0 +1,15 @@
+C:\Documents and Settings\plocke\my documents\visual studio 2010\Projects\SudokuSolver\Solver\bin\Debug\Solver.dll
+C:\Documents and Settings\plocke\my documents\visual studio 2010\Projects\SudokuSolver\Solver\bin\Debug\Solver.pdb
+C:\Documents and Settings\plocke\my documents\visual studio 2010\Projects\SudokuSolver\Solver\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\plocke\my documents\visual studio 2010\Projects\SudokuSolver\Solver\obj\Debug\Solver.dll
+C:\Documents and Settings\plocke\my documents\visual studio 2010\Projects\SudokuSolver\Solver\obj\Debug\Solver.pdb
+C:\Users\plocke\Documents\My Dropbox\SudokuSolver\Solver\bin\Debug\Solver.dll
+C:\Users\plocke\Documents\My Dropbox\SudokuSolver\Solver\bin\Debug\Solver.pdb
+C:\Users\plocke\Documents\My Dropbox\SudokuSolver\Solver\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\plocke\Documents\My Dropbox\SudokuSolver\Solver\obj\Debug\Solver.dll
+C:\Users\plocke\Documents\My Dropbox\SudokuSolver\Solver\obj\Debug\Solver.pdb
+C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Solver\bin\Debug\Solver.dll
+C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Solver\bin\Debug\Solver.pdb
+C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Solver\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Solver\obj\Debug\Solver.dll
+C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Solver\obj\Debug\Solver.pdb

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a2754358-41a8-45dc-9c93-1e0b39878ac2" name="PLOCKE@25GJB51-2 2010-09-21 11:02:15" runUser="MSDOMAIN1\PLOCKE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f7182292-f7f3-47b9-ab7d-6a0f41f28cfe">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="PLOCKE_25GJB51-2 2010-09-21 11_02_15">
+      <DeploymentItem filename="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Solver\bin\Debug\Solver.dll" />
+    </Deployment>
+    <Execution>
+      <Timeouts testTimeout="30000" />
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+      </TestTypeSpecific>
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-09-21T11:02:15.2705203-05:00" queuing="2010-09-21T11:02:20.7081943-05:00" start="2010-09-21T11:02:21.1613338-05:00" finish="2010-09-21T11:02:46.5058948-05:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="25GJB51-2" outcome="Error" timestamp="2010-09-21T11:02:46.4746438-05:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="cannot_solve_invalid_puzzle" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="63b92d21-dd62-a201-65b6-ffee7ae66124">
+      <Execution id="6c59b3b9-9a67-4181-8ac5-1d5b4dad8c4b" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.SolverTest, Tests" name="cannot_solve_invalid_puzzle" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="63b92d21-dd62-a201-65b6-ffee7ae66124" executionId="6c59b3b9-9a67-4181-8ac5-1d5b4dad8c4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="6c59b3b9-9a67-4181-8ac5-1d5b4dad8c4b" testId="63b92d21-dd62-a201-65b6-ffee7ae66124" testName="cannot_solve_invalid_puzzle" computerName="25GJB51-2" duration="00:00:24.9070470" startTime="2010-09-21T11:02:21.5988478-05:00" endTime="2010-09-21T11:02:46.5058948-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6c59b3b9-9a67-4181-8ac5-1d5b4dad8c4b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

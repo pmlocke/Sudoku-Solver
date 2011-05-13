@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="77c1b040-e21a-48cb-b491-937bc066a319" name="PLOCKE@25GJB51-2 2010-09-21 11:03:01" runUser="MSDOMAIN1\PLOCKE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f7182292-f7f3-47b9-ab7d-6a0f41f28cfe">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="PLOCKE_25GJB51-2 2010-09-21 11_03_01">
+      <DeploymentItem filename="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Solver\bin\Debug\Solver.dll" />
+    </Deployment>
+    <Execution>
+      <Timeouts testTimeout="30000" />
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+      </TestTypeSpecific>
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-09-21T11:03:01.5220003-05:00" queuing="2010-09-21T11:03:02.6939128-05:00" start="2010-09-21T11:03:03.1470523-05:00" finish="2010-09-21T11:03:04.6471003-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="25GJB51-2" outcome="Warning" timestamp="2010-09-21T11:03:04.7564788-05:00">
+        <Text>Could not obtain result files from 'C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\TestResults\PLOCKE_25GJB51-2 2010-09-21 11_03_01\In'.</Text>
+        <Exception>System.UnauthorizedAccessException: Access to the path 'C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\TestResults\PLOCKE_25GJB51-2 2010-09-21 11_03_01\In\25GJB51-2\' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler)
+   at System.IO.Directory.InternalGetFileDirectoryNames(String path, String userPathOriginal, String searchPattern, Boolean includeFiles, Boolean includeDirs, SearchOption searchOption)
+   at System.IO.Directory.GetFiles(String path)
+   at Microsoft.VisualStudio.TestTools.Common.DirectoryTree.GetAllFiles()
+   at Microsoft.VisualStudio.TestTools.Common.DirectoryTree.GetAllFiles()
+   at Microsoft.VisualStudio.TestTools.TestManagement.Tmi.UpdateTestRunAndTestCaseResults(TestRun testRun)</Exception>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="cannot_solve_invalid_puzzle" storage="c:\documents and settings\plocke\my documents\my dropbox\sudokusolver\tests\bin\debug\tests.dll" id="63b92d21-dd62-a201-65b6-ffee7ae66124">
+      <Execution id="2ca78b7e-a0e1-44d1-837c-3079d610fbc1" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\SudokuSolver\Tests\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.SolverTest, Tests" name="cannot_solve_invalid_puzzle" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="63b92d21-dd62-a201-65b6-ffee7ae66124" executionId="2ca78b7e-a0e1-44d1-837c-3079d610fbc1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2ca78b7e-a0e1-44d1-837c-3079d610fbc1" testId="63b92d21-dd62-a201-65b6-ffee7ae66124" testName="cannot_solve_invalid_puzzle" computerName="25GJB51-2" duration="00:00:00.1919240" startTime="2010-09-21T11:03:03.3189328-05:00" endTime="2010-09-21T11:03:04.3345903-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ca78b7e-a0e1-44d1-837c-3079d610fbc1">
+      <Output>
+        <DebugTrace>578428365616843243519418285832724361677549468245651243456392757823912831192541854783189468697678596783196329141323723298213111792541854996883282323624367384138787698875239841128311925419783182319763291468678396749678523821381681452391754239121839798756473919368489368792932841128323222787639871938957168869344819632917518681453239533218121529718939732136492831997676788784932128325841321286866329343197151978796769784297831</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
