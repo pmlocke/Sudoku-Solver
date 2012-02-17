@@ -1,4 +1,4 @@
-﻿Sudoku Solver 1.0 by Patrick Locke.
+﻿Sudoku Solver 0.5 by Patrick Locke.
 
 The Solver Library can solve sudoku Puzzles, this is not a surprise. What makes it interesting is the following:
 
